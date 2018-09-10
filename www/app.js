@@ -4,10 +4,10 @@
 // except for 'app' ones, which are in a sibling
 // directory.
 requirejs.config({
-    baseUrl: 'lib',
-    paths: {
-        app: '../app'
-    }
+  baseUrl: 'lib',
+  paths: {
+    app: '../app'
+  }
 });
 
 // Start loading the main app file. Put all of
